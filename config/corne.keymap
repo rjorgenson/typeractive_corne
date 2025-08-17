@@ -138,10 +138,10 @@
  
         EXTRA1 {
             status = "reserved";
-        }
+        };
 
         EXTRA2 {
             status = "reserved";
-        }
+        };
     };
 };
