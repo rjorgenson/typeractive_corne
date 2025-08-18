@@ -27,18 +27,19 @@ include:
 
   - board: nice_nano_v2
     shield: corne_left nice_view_adapter nice_view
-    cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
+#    cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
     artifact-name: corne_left
-    
+
   - board: nice_nano_v2
     shield: corne_right nice_view_adapter nice_view
-    cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
+#    cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
     artifact-name: corne_right
 
   # setting reset firmware
   - board: seeeduino_xiao_ble
     shield: settings_reset
     artifact-name: xiao_ble_reset
+
   - board: nice_nano_v2
     shield: settings_reset
     artifact-name: nano_v2_reset
