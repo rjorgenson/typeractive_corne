@@ -75,9 +75,9 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_enter {
+        csquare {
             bindings = <&kp ENTER>;
-            key-positions = <RM0 RM1>;
+            key-positions = <18 19>;
         };
     };
 
