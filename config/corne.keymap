@@ -69,7 +69,7 @@
             tapping-term-ms = <300>;
             quick-tap-ms = <190>;
             flavor = "balanced";
-            hold-trigger-key-positions = <LT5>;
+            hold-trigger-key-positions = <0>;
     };
 
     combos {
