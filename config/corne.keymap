@@ -70,14 +70,15 @@
             quick-tap-ms = <190>;
             flavor = "balanced";
             hold-trigger-key-positions = <0>;
+        };
     };
 
     combos {
         compatible = "zmk,combos";
 
-        csquare {
+        enter {
             bindings = <&kp ENTER>;
-            key-positions = <18 19>;
+            key-positions = <RM0 RM1>;
         };
     };
 
