@@ -13,7 +13,8 @@
 #define KEYS_R RT0 RT1 RT2 RT3 RT4 RT5 RM0 RM1 RM2 RM3 RM4 RM5 RB0 RB1 RB2 RB3 RB4 RB5  // Right-hand keys.
 #define THUMBS LH2 LH1 LH0 RH0 RH1 RH2                                                  // Thumb keys.
 
-#define SWP_POS LT0
+#define SWP_POS1 RB5
+#define SWP_POS2 RB4
 
 #define DEF 0
 #define NUM 1
@@ -85,7 +86,7 @@
             compatible = "zmk,behavior-smart-toggle";
             #binding-cells = <0>;
             bindings = <&kp LGUI>, <&kp TAB>;
-            ignored-key-positions = <SWP_POS RB1 RB2 RB3 RM2>;
+            ignored-key-positions = <SWP_POS1 SWP_POS2>;
         };
     };
 
