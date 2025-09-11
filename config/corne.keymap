@@ -86,7 +86,7 @@
             compatible = "zmk,behavior-smart-toggle";
             #binding-cells = <0>;
             bindings = <&kp LGUI>, <&kp TAB>;
-            ignored-key-positions = <SWP_POS1 SWP_POS2>;
+            ignored-key-positions = <SWP_POS1 SWP_POS2 LB5>;
         };
     };
 
