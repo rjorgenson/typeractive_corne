@@ -71,7 +71,7 @@
         t_hyp: t_hyp {
             compatible = "zmk,behavior-hold-tap";
             label = "TAB_HYPER";
-            bindings = <&kp>, <&wswap>;
+            bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <300>;
