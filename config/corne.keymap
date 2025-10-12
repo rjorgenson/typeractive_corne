@@ -45,7 +45,7 @@
             #binding-cells = <0>;
             bindings = <&kp LCTRL &kp LCTRL &kp N0>;
             label = "KVM_SWAP";
-        }
+        };
 
     };
 
