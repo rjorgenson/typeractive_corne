@@ -11,7 +11,7 @@ config ZMK_USB
     default y
 
 config ZMK_USB_BOOT
-    default n
+    default y
 
 config USB_DEVICE_REMOTE_WAKEUP
     default n
