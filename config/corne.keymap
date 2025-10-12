@@ -43,7 +43,13 @@
         kvm_swap: kvm_swap {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LCTRL &kp LCTRL &kp N0>;
+            wait-ms = <50>;
+            tap-ms = <50>;
+            bindings
+                = <&macro_tap &kp LCTRL>
+                , <&macro_tap &kp LCTRL>
+                , <&macro_tap &kp N0>
+                ;
             label = "KVM_SWAP";
         };
 
