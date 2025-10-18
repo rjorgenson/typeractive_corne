@@ -19,9 +19,6 @@ config USB_DEVICE_REMOTE_WAKEUP
 config ZMK_PM
     default n
 
-config ZMK_HID_REPORT_TYPE_HKRO
-    default y
-
 config ZMK_SPLIT
     default y
 
