@@ -7,6 +7,6 @@ if(CONFIG_ZMK_USB)
     list(FILTER APP_SOURCES EXCLUDE REGEX ".*usb_hid\\.c$")
     set_property(TARGET app PROPERTY SOURCES ${APP_SOURCES})
 
-    # Add our custom version
-    target_sources(app PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/app/src/usb_hid.c)
+    # Add our custom version (path relative to zephyr directory)
+    target_sources(app PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/../app/src/usb_hid.c)
 endif()
