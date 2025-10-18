@@ -2,6 +2,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: rjorgenson
+      url-base: https://github.com/rjorgenson
     - name: urob
       url-base: https://github.com/urob
     - name: janpfischer
@@ -10,8 +12,8 @@ manifest:
       url-base: https://github.com/caksoylar
   projects:
     - name: zmk
-      remote: zmkfirmware
-      revision: main
+      remote: rjorgenson
+      revision: kvm-boot-protocol-fix
       import: app/west.yml
     - name: zmk-helpers
       remote: urob
