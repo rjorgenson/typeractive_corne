@@ -13,12 +13,6 @@ config ZMK_USB
 config ZMK_USB_BOOT
     default y
 
-config USB_DEVICE_REMOTE_WAKEUP
-    default n
-
-config ZMK_PM
-    default n
-
 config ZMK_SPLIT
     default y
 
